@@ -205,3 +205,27 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# ============================================================================
+# Project-Specific: AI Project Status Log Tool
+# ============================================================================
+
+# Status log data files (contains actual project data, should not be committed)
+status_log.json
+*.json.tmp
+
+# IDE and editor settings
+.vscode/
+.idea/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary test data
+test_*.json
+temp_*.json
+
+# Plan
+plan.md
